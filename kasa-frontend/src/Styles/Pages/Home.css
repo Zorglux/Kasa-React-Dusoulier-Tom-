@@ -1,0 +1,25 @@
+.HomeMain{
+ margin: 20px 100px;
+ padding:56px 50px;
+ background-color: #F7F7F7;
+ border-radius:25px;
+ display:grid;
+ row-gap: 50px;
+ column-gap:60px;
+ grid-template-columns: repeat(3, 1fr);
+}
+
+ @media(max-width:1000px){
+  .HomeMain{
+    grid-template-columns: repeat(2, 1fr);
+  }
+ }
+ @media(max-width:768px){
+  .HomeMain{
+    margin: 20px 20px;
+    grid-template-columns: repeat(1, 1fr);
+    padding:0;
+    row-gap:20px;
+    background-color:#FFFFFF;
+  }
+ }

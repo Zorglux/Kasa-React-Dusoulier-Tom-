@@ -1,0 +1,124 @@
+.LogementMain{
+ margin: 25px 100px 30px 100px;
+ height: 415px;
+}
+ @media(max-width:768px){
+  .LogementMain{
+    margin: 0 20px 0 20px;
+    height:255px;
+  }
+ }
+ 
+.LogementInfos{
+ display:flex;
+ justify-content:space-between;
+ margin: 0 100px;
+}
+ @media(max-width:768px){
+  .LogementInfos{
+    margin: 15px 20px 0 20px;
+    flex-direction:column;
+  }
+ }
+ 
+.LogementTags{
+ display:flex;
+ gap:15px;
+ flex-wrap:wrap;
+}
+ @media(max-width:768px){
+  .LogementTags{
+    gap:10px;
+  }
+ }
+  
+.LogementTitre{
+ color: #FF6060;
+ font-weight:500;
+ line-height:51.34px;
+ font-size:36px;
+ margin: 0 0 0 0;
+}
+ @media(max-width:768px){
+  .LogementTitre{
+    font-size:18px;
+    line-height:25.67px;
+    margin-right:30px;
+  }
+ }
+ 
+.LogementLocation{
+ color: #FF6060;
+ font-size:18px;
+ font-weight:500;
+ line-height:25.67px;
+ margin:0 0 20px 0;
+}
+ @media(max-width:768px){
+  .LogementLocation{
+    font-size:14px;
+    line-height:19.96px;
+    margin: 10px 0 10px 0;
+  }
+ }
+  
+.LogementHote{
+ color: #FF6060;
+ font-size:18px;
+ font-weight:500;
+ line-height:25.67px;
+ margin: 0 0 30px 0;
+ width:min-content;
+ text-align:end;
+}
+ @media(max-width:768px){
+  .LogementHote{
+    font-size:12px;
+    line-height:17px;
+    margin: 10px 0 0 0;
+  }
+ }
+ 
+.LogementHoteDiv{
+ display:flex;
+ justify-content:flex-end;
+}
+  
+.LogementHoteImage{
+ border-radius:50%;
+ width:64px;
+ height:64px;
+ margin-left:10px;
+}
+ @media(max-width:768px){
+  .LogementHoteImage{
+    width:32px;
+    height:32px;
+    margin-top:10px;
+  }
+ }
+  
+.LogementCollapseur{
+ display:grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap:75px;
+ margin: 0px 100px 15px 100px;
+}
+ @media(max-width:768px){
+  .LogementCollapseur{
+    margin: 0 20px 0 20px;
+    grid-template-columns: repeat(1, 1fr);
+    gap:0;
+  }
+ }
+ 
+ @media(max-width:768px){
+  .LogementAside{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items:flex-end;
+    margin-top:10px;
+    flex-wrap: wrap;
+  }
+ }

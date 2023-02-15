@@ -1,0 +1,61 @@
+.Header{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: 40px 100px 0 100px;
+}
+ @media(max-width:768px){
+  .Header{
+    margin: 20px;
+  }
+ }
+ 
+ @media(max-width:768px){
+  .HeaderImage{
+    width:145px;
+    height: 47px;
+  }
+ }
+@media(max-width:330px){
+  .HeaderImage{
+    width:85px;
+  }
+ }
+ 
+ @media(max-width:768px){
+  .HeaderNav{
+    padding-top:10px;
+  }
+ }
+ 
+.HeaderLien{
+ text-decoration: none;
+ font-size:24px;
+ font-weight:500;
+ color: #FF6060;
+ line-height: 142.6%;
+}
+ 
+.Accueil{
+ position: relative;
+ right:70px;
+}
+
+.HeaderLien:hover{
+ text-decoration:underline 1.3px;
+ text-underline-offset: 2px;
+}
+ @media(max-width:768px){
+  .HeaderLien{
+    font-size:12px;
+    text-transform:uppercase;
+  }
+  .HeaderLien:hover{
+    text-decoration:underline 0.5px;
+    text-underline-offset: 1px;
+  }
+  .Accueil{
+    position: relative;
+    right:20px;
+  }
+ }

@@ -1,0 +1,17 @@
+.RatingsDiv{
+ display:flex;
+ justify-content: space-between;
+}
+ 
+.RatingsImage{
+ width:37px;
+ height:37px;
+ padding: 0 0 0 2px;
+ margin:0;
+}
+ @media(max-width:768px){
+  .RatingsImage{
+    width:19px;
+  }
+ }
+ 

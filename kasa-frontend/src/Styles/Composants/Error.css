@@ -1,0 +1,41 @@
+.ErrorLink{
+ color:#FF6060;
+ font-weight:500;
+ font-size:18px;
+ text-decoration:underline 1.4px;
+ text-underline-offset: 2px;
+}
+ @media(max-width:768px){
+  .ErrorLink{
+    font-size:14px;
+  }
+ }
+
+.ErrorMain{
+ color:#FF6060;
+ text-align:center;
+ margin:140px 0 159px 0 ;
+}
+
+.ErrorH1{
+ font-size:288px;
+ font-weight:700;
+ margin:0;
+}
+ @media(max-width:768px){
+  .ErrorH1{
+    font-size:96px;
+  }
+ }
+ 
+.ErrorP{
+ font-size:36px;
+ font-weight:500;
+ margin-bottom:160px;
+}
+ @media(max-width:768px){
+  .ErrorP{
+    font-size:18px;
+    margin: 13px 30px 130px 30px;
+  }
+ }

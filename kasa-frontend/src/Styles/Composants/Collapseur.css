@@ -1,0 +1,196 @@
+/* COMPOSANT FERME */ 
+.Logement-article{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ position: relative;
+ top:5px;
+ background-color: #FF6060;
+ border-radius: 10px;
+ height:52px;
+ margin-top:25px;
+}
+
+.Logement-titre{
+ color:white;
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 25.67px;
+ padding-left:20px;
+}
+.Logement-img{
+ padding-right:20px;
+ width:32.5px;
+}
+
+/* =============== COMPOSANT OUVERT ===============   */  
+.Logement-div{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ position: relative;
+ top:5px;
+ height:52px;
+ background-color: #FF6060;
+ margin-top:25px;
+ border-radius: 10px;
+}
+
+.Logement-img2{
+ transform: rotate(180deg);
+ padding-left:20px;
+ width:32.5px;
+}
+
+.Logement-texte{
+ background-color: #F6F6F6;
+ color:#FF6060;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 25.67px;
+ margin:0;
+}
+
+.Logement-texte-equipement{
+ background-color: #F6F6F6;
+ color:#FF6060;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 25.67px;
+ margin:0;
+}
+
+.Logement-div-placement-texte{
+ background-color: #F6F6F6;
+ padding: 30px 12px 30px 20px;
+ border-radius:10px;
+}
+
+ @media(max-width:768px){
+  .Logement-titre{
+    font-size:13px;
+    line-height: 18.54px;
+    padding-left:11px;
+  }
+  .Logement-div{
+    height:30px;
+    border-radius: 5px;
+    margin-top:20px;
+  }
+  .Logement-article{
+    height:30px;
+    border-radius: 5px;
+    margin-top:20px;
+  }
+  .Logement-img{
+    width:18px;
+    padding-right:5px;
+  }
+  .Logement-img2{
+    width:18px;
+    padding-left:5px;
+  }
+  .Logement-texte{
+    font-size: 12px;
+    line-height: 17.11px;
+  }
+  .Logement-texte-equipement{
+    font-size:12px;
+    line-height: 17.11px;
+  }
+  .Logement-div-placement-texte{
+    padding: 22px 12px 5px 20px;
+  }
+ }
+
+/* ========================================================================
+                   COLLAPSEUR DE LA PAGE A PROPOS
+   ====================================================================== */ 
+/* COMPOSANT FERME */ 
+.Propos-article{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ height:47px;
+ border-radius: 5px;
+ position: relative;
+ top:4px;
+ margin-top:30px;
+ background-color: #FF6060;
+}
+
+.Propos-titre{
+ padding-left:18px;
+ font-size:24px;
+ line-height: 34.22px;
+ font-weight: 400;
+ color: white;
+}
+
+.Propos-img{
+ padding-right:31px;
+ width:29px;
+}
+
+/* ======================   COMPOSANT OUVERT ====================== */  
+
+.Propos-div{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top:30px;
+ height:47px;
+ border-radius: 5px;
+ position: relative;
+ top:4px;
+ background-color: #FF6060;
+}
+
+.Propos-img2{
+ transform: rotate(180deg);
+ padding-left:31px;
+ width:29px
+}
+
+.Propos-texte{
+ font-size:24px;
+ line-height: 34.22px;
+ padding: 30px 25px 10px 20px;
+ margin:0;
+ border-radius:5px;
+ color: #FF6060;
+ background-color: #F6F6F6;
+}
+
+ @media(max-width:768px){
+  .Propos-article{
+    height:30px;
+    margin-top:20px;
+  }
+  .Propos-div{ 
+    margin-top:20px;
+  }
+  .Propos-titre{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18.54px;
+    padding-left:11px;
+  }
+  .Propos-img{
+    width:18px;
+    padding-right:8px;
+  }
+  .Propos-img2{
+    width:18px;
+    padding-left:8px;
+  }
+  .Propos-div{
+    height:30px;
+   }
+  .Propos-texte{
+    font-size: 12px;
+    line-height: 17.11px;
+    padding: 20px 7px 40px 11px;
+    border-radius:5px;
+  }
+ }

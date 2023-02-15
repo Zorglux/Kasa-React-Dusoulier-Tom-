@@ -1,0 +1,8 @@
+.ProposMain{
+ margin: 0 210px 100px 210px;
+}
+ @media(max-width:768px){
+  .ProposMain{
+    margin:20px 20px 100px 20px;
+  }
+ }

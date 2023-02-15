@@ -1,0 +1,33 @@
+.Loader-logement {
+ display: grid;
+ place-items: center;
+ position: fixed;
+ inset: 0;
+ z-index: 1;
+ background-color: #ffffff;
+}
+
+.Loader-logement::after {
+ content: "";
+ height: 190px;
+ width: 190px;
+ border-top: 5px solid rgb(0, 0, 0);
+ border-radius: 50%;
+ animation: rotation 0.8s infinite ease-in-out;
+}
+
+.Loader-logo{
+ position: absolute;
+ top:45%;
+ width:170px;
+}
+
+
+/* ====================== */
+@keyframes rotation{
+    from{
+      transform: rotate(0deg);
+    }to{
+       transform: rotate(360deg);
+    }
+  }
