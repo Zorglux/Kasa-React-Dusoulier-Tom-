@@ -99,7 +99,8 @@
     line-height: 17.11px;
   }
   .Logement-div-placement-texte{
-    padding: 22px 12px 5px 20px;
+    padding: 22px 12px 5px 12px;
+    border-radius:5px;
   }
  }
 
